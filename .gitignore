@@ -1,0 +1,13 @@
+# Arquivos de configuração local do Eclipse
+.metadata/
+.settings/
+.classpath
+.project
+
+# Arquivos compilados do Java
+bin/
+*.class
+
+# Arquivos temporários do SO
+desktop.ini
+.DS_Store
