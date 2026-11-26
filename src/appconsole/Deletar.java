@@ -44,7 +44,7 @@ public class Deletar {
 		String dataExpressa = "15/10/2026";
 		Query q2 = manager.query();
 		q2.constrain(EntregaExpressa.class);
-		q2.descend(dataExpressa);
+		q2.descend("data").constrain(dataExpressa);
 		List<EntregaExpressa> resultadosExpressa = q2.execute();
 		
 		if (resultadosExpressa.isEmpty()) {
