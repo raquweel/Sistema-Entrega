@@ -23,7 +23,7 @@ public class EntregaExpressa extends Entrega {
 	
 	@Override
 	public String toString() {
-	    return super.toString() + " | taxa extra = " + taxaextra + " | valor total = R$" + getValor();
+	    return super.toString() + " | taxa extra = R$" + taxaextra + " | valor total = R$" + getValor();
 	}
 
 }
