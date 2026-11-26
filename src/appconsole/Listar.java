@@ -31,7 +31,7 @@ public class Listar {
 		System.out.println("\n------------ APENAS ENTREGAS EXPRESSAS ------------");
 		List<EntregaExpressa> expressas = manager.query(EntregaExpressa.class);
 		for (EntregaExpressa ee : expressas) {
-			System.out.println(ee + " | Valor Total: R$ " + ee.getValor());
+			System.out.println(ee);
 		}
 		
 		System.out.println("\n------------ ENTREGADORES ------------");

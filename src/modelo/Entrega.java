@@ -68,6 +68,6 @@ public class Entrega {
         for (Produto p : listaProduto) {
             nomes += p.getId() + " ";
         }
-        return "Entrega [id = " + id + ", data = " + data + ", valor = " + valor + "] -> Entregador: " + entregador.getId() + " | Produtos: " + nomes;
+        return "Entrega [id = " + id + ", data = " + data + ", valor = R$" + valor + "] -> Entregador: " + entregador.getId() + " | Produtos: " + nomes;
     }
 }
