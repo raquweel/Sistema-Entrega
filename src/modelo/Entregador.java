@@ -41,7 +41,7 @@ public class Entregador {
 	public String toString() {
 	    String entregas = "";
 	    for (Entrega e : listaEntrega) {
-	        entregas += e.getId();
+	        entregas += e.getId() + " ";
 	    }
 
 	    return "Entregador [id = " + id + ", nome = " + nome + "] -> Entregas: " + entregas;
